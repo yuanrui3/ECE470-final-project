@@ -15,4 +15,7 @@ In order to run this demo:
 - Click <Run> button in CoppeliaSim GUI.
 - In Spyder or CMD, run the "vrep_main_py.py" code.
 - Now you can see our deliverable.
-
+  
+  
+  Video Links:
+https://youtu.be/CulWFjaNvis
