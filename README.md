@@ -19,3 +19,19 @@ In order to run this demo:
   
   Video Links:
 https://youtu.be/CulWFjaNvis
+  
+
+# Final Update
+
+In order to run this demo:
+- Download and install CoppeliaSim.
+- Download and install Python Environment and required packages.
+- Open <ECE470 new workspace> directory. 
+- Open the "newscene.ttt" scene.
+- Click <Run> button in CoppeliaSim GUI.
+- In Spyder or CMD, run the "newscene.py" code.
+- Now you can see our deliverable.
+  
+  
+  Video Links:
+https://www.youtube.com/watch?v=-rznKTQSUKo
