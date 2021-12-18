@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<robot name="Snooker_Table" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find Snooker_Table_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find Snooker_Table_description)/urdf/Snooker_Table.trans" />
+<xacro:include filename="$(find Snooker_Table_description)/urdf/Snooker_Table.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-3.862806199151716e-16 0.9900000000000001 0.05888116963915374"/>
+    <mass value="3028.215999999999"/>
+    <inertia ixx="1281.388489" ixy="0.0" ixz="-0.0" iyy="4141.779276" iyz="0.0" izz="5419.969239"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Snooker_Table_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Snooker_Table_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+</robot>
